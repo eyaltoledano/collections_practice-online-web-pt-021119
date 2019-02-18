@@ -51,7 +51,7 @@ end
 
 def add_s(array)
   array.collect do |word|
-    until word == !word[1]
+    until wword[1]
       word << "s"
     end
   end
