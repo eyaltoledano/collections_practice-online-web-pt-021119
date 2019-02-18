@@ -40,4 +40,5 @@ def find_a(array)
       found << word
     end
   end
+  found
 end
