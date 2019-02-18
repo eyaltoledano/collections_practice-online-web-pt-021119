@@ -11,3 +11,7 @@ end
 def sort_array_char_count(array)
   new = array.sort_by { |str| str.size }
 end
+
+def swap_elements(array)
+  
+end
