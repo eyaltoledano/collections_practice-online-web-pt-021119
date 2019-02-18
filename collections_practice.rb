@@ -10,4 +10,5 @@ end
 
 def sort_array_char_count(array)
   new = array.sort { |str| str.size }
+  binding.pry
 end
