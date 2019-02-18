@@ -48,3 +48,11 @@ def sum_array(array)
     num + i
   end
 end
+
+def add_s(array)
+  array.collect do |word|
+    unless word == word[1]
+      word << "s"
+    end
+  end
+end
