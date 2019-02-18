@@ -9,6 +9,6 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  new = array.sort { |str| str.size }
+  new = array.sort_by { |str| str.size }
   binding.pry
 end
