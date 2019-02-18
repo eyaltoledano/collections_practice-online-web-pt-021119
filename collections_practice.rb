@@ -32,3 +32,12 @@ def kesha_maker(array)
   end
   new_array
 end
+
+def find_a(array)
+  found = []
+  array.each do |word|
+    if word[0] == "a"
+      found << word
+    end
+  end
+end
